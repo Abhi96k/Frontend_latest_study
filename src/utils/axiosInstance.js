@@ -43,7 +43,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://latest-backend-studyapp.onrender.com/api/v1",
+  baseURL: "https://latest-backend-studyapp.onrender.com/api/v1"
 });
 
 axiosInstance.interceptors.request.use(
